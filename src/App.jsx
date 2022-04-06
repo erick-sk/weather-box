@@ -1,5 +1,12 @@
+import './App.scss';
+import Layout from './components/Layout';
+
 function App() {
-  return <h1>Weather Box</h1>;
+  return (
+    <>
+      <Layout />
+    </>
+  );
 }
 
 export default App;
