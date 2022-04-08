@@ -1,0 +1,44 @@
+.form-group {
+  margin-bottom: 2rem;
+
+  label {
+    display: block;
+    font-family: 'Josefin Slab', serif;
+    font-weight: bold;
+    font-size: 2rem;
+  }
+
+  input,
+  select {
+    display: block;
+    width: 100%;
+    padding: 1rem 0 1rem 1rem;
+    border: 1px solid #0258ff;
+    border-style: dashed;
+    border-radius: 1rem;
+    outline: none;
+    font-family: 'Josefin Slab', serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: #e8f0fe;
+  }
+}
+
+.search-button {
+  width: 100%;
+  padding: 1.5rem 0;
+  border: none;
+  border-radius: 2rem;
+  color: #fff;
+  background-color: #1265ff;
+  font-family: 'Josefin Slab', serif;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: background-color 0.3s ease-out;
+
+  &:hover {
+    cursor: pointer;
+    background-color: #013db2;
+  }
+}

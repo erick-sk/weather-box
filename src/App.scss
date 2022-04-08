@@ -1,20 +1,29 @@
-@font-face {
-  font-family: 'Amatic SC', cursive;
-  src: url('./assets/fonts/AmaticSC-Bold.ttf') format('ttf');
-  font-weight: 700;
-  font-style: normal;
+.container {
+  max-width: 120rem;
+  width: 95%;
+  margin: 0 auto;
 }
 
-@font-face {
-  font-family: 'Josefin Slab', serif;
-  src: url('./assets/fonts/JosefinSlab-Regular.ttf') format('ttf');
-  font-weight: 400;
-  font-style: normal;
-}
+.grid {
+  margin-top: 10rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 5rem;
 
-@font-face {
-  font-family: 'Josefin Slab', serif;
-  src: url('./assets/fonts/JosefinSlab-Bold.ttf') format('ttf');
-  font-weight: 700;
-  font-style: normal;
+  @media (min-width: 768px) {
+    margin-top: 15rem;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10rem;
+  }
+
+  @media (min-width: 1920px) {
+    margin-top: 20rem;
+    gap: 15rem;
+  }
+
+  .city-alert {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
