@@ -26,7 +26,7 @@ function App() {
 
       if (data.cod === '404') {
         showAlert({
-          apiError: 'City not found',
+          apiError: 'City not found, try another',
         });
       }
     } catch (error) {
@@ -51,10 +51,10 @@ function App() {
           />
 
           {apiError ? (
-            <div className="city-alert">
-              <Alert message={apiError} />
-            </div>
+            // <div className="city-alert">
+            <Alert message={apiError} />
           ) : (
+            // </div>
             <Card weather={weather} />
           )}
         </div>

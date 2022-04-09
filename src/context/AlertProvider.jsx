@@ -10,7 +10,7 @@ const AlertProvider = ({ children }) => {
 
     setTimeout(() => {
       setMessages({});
-    }, 3000);
+    }, 3500);
   };
 
   return (

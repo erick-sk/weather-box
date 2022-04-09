@@ -12,12 +12,8 @@ const Card = ({ weather = {} }) => {
       </div>
       <div className="card-body">
         <p className="temperature">{temp} Cº</p>
-        <p>
-          Temperature min: <span>{temp_min} Cº</span>
-        </p>
-        <p>
-          Temperature max: <span>{temp_max} Cº</span>
-        </p>
+        <p>Temperature min: {temp_min} Cº</p>
+        <p>Temperature max: {temp_max} Cº</p>
       </div>
     </div>
   );
