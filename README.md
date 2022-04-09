@@ -1,7 +1,10 @@
 # Weather Box
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e3a835eb-0384-4427-ba7b-8d4cd25dd879/deploy-status)](https://app.netlify.com/sites/weather-box-erick-sk/deploys)
 
 Here you can see information about the current weather in your city.<br/>
-Available countries: United States, Peru, Colombia, Argentina, Mexico, Spain and Costa Rica,
+Available countries: United States, Peru, Colombia, Argentina, Mexico, Spain and Costa Rica.
+
+You can visit the project live site [here](https://weather-box.ericksaavedra.me/).
 
 ## Installation
 
